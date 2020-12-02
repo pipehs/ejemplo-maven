@@ -1,6 +1,6 @@
 # Getting Started
 
-Prueba2
+Prueba3
 
 ## Windows
 
