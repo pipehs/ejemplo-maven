@@ -8,6 +8,7 @@ class DevOpsUsach2020ApplicationTests {
 
 	@Test
 	void contextLoads() {
+		assertThat(DevOpsUsach2020Application.main()).isNull();  // Fest assertion
 	}
 
 }
