@@ -27,7 +27,7 @@ pipeline {
             }
             stage('Run Jar') {
                 steps {
-                    sh 'start mvnw spring-boot:run'
+                    sh './mvnw spring-boot:run'
                 }
             }
     }
