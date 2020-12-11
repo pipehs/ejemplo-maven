@@ -32,7 +32,7 @@ pipeline {
                     packages: [[$class: 'MavenPackage', 
                         mavenAssetList: [[classifier: '', 
                             extension: 'jar', 
-                            filePath: '/home/felipe/Documentos/Diplomado USACH/fork-ejemplo-maven/DevOpsUsach2020-0.0.1.jar']], 
+                            filePath: '/root/.jenkins/workspace/ltibranch-pipeline_feature-nexus/build/DevOpsUsach2020-0.0.1.jar']], 
                             mavenCoordinate: [
                                 artifactId: 'DevOpsUsach2020', 
                                 groupId: 'com.devopsusach2020', 
