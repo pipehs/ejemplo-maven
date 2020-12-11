@@ -18,13 +18,13 @@ pipeline {
                     sh './mvnw clean package -e'
                 }
             }
-            stage('SonarQube analysis') {
+            /*stage('SonarQube analysis') {
                 steps {
                     withSonarQubeEnv('Sonar') {
                         sh './mvnw org.sonarsource.scanner.maven:sonar-maven-plugin:3.7.0.1746:sonar'
                     }
                 }
-            }
+            }*/
             stage('uploadNexus') {
                 steps {
                     nexusPublisher nexusInstanceId: 'nexus-andres', 
